@@ -1,0 +1,76 @@
+body {
+  background: rgb(5, 187, 255);
+  background: linear-gradient(110deg, #2c3e50 50%, #34495e 50%);
+}
+
+#title {
+  margin-top: 20px;
+  border: solid white;
+  padding: 10px;
+}
+
+#image {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #1e272e;
+  border: white solid;
+  border-radius: 10px;
+}
+
+#image:hover {
+  opacity: 0.6;
+  transition: 300ms ease-out;
+}
+
+#img-margin {
+  margin-top: 30px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.card-size {
+  width: 20%;
+}
+
+.card-text {
+  font-family: "Pangolin", cursive;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.bi {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#anchor {
+  text-decoration: none;
+}
+
+#next-page {
+  color: #95a5a6;
+}
+
+#next-page:hover {
+  opacity: 0.5;
+  transition: ease-out 300ms;
+}
+
+img {
+  object-position: top;
+  object-fit: cover;
+}
+

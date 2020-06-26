@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  border: white solid;
+  border-radius: 5px;
+  padding: 30px;
+  width: 70%;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 200px;
+  font-family: "Piedra", cursive;
+}
+h1:hover {
+  color: black;
+  background-color: white;
+  transition: ease-in-out 1000ms;
+  cursor: default;
+}
+
+button {
+  margin-top: 150px;
+  width: 200px;
+  border-radius: 30px;
+  border: white solid;
+  background-color: black;
+  color: white;
+  padding: 5px 9px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  transition: ease-out 500ms;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: "Piedra", cursive;
+}
