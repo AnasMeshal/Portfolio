@@ -1,0 +1,52 @@
+body {
+    background-image: url(./assets/contact-bg.jpg);
+    font-family: 'Contrail One', cursive;
+}
+
+#title {
+    margin-top: 30px;
+    background-color: #a8dadc;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+
+#div-img {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#div-img1 {
+    margin-top: 30px;
+}
+
+#img-div {
+    border-radius: 15px;
+}
+
+#img-div:hover {
+    opacity: 0.9;
+    transition: ease-out 300ms;  
+}
+
+img {
+    width: 300px;
+    object-position: top;
+    object-fit: cover;
+    padding: 30px;
+}
+
+.content {
+    background-color: #a8dadc;
+}
+
+#next-page {
+    color: #a8dadc;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+  
+#next-page:hover {
+    opacity: 0.5;
+    transition: ease-out 300ms;  
+}
